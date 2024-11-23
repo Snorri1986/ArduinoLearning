@@ -8,14 +8,13 @@ void setup() {
 }
 
 void loop() {
-    
   for(int i=PWD_MIN,j=PWD_MAX;i<=PWD_MAX,j>=PWD_MIN;i++,j--) 
   {
     analogWrite(LED_PIN,i);
     delay(1000);
     analogWrite(LED_PIN,j);
     delay(1000);
-   }
+  }
 }
 
 
